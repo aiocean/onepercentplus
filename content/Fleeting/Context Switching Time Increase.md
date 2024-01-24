@@ -1,0 +1,1 @@
+Processes require more time for context switching as they are more heavy.

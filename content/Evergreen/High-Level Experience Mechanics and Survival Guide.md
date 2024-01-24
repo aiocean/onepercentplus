@@ -8,7 +8,7 @@ Khi tham gia vào các map này, thì độ khó rất cao, và hầu như khôn
 
 ## Dây chuyền
 
-![[Defiance of Destiny Mechanics]]
+![[Defiance of Destiny New Unique Item in Patch 3.22.md]]
 
 ## Buff skill
 
@@ -21,7 +21,9 @@ Sử dụng Dissolution of the Flesh Crimson Jewel để khi nhận damage, thì
 Xem video hướng dẫn sử dụng Petrilied blood và Dissolution tại đây: [video](https://www.youtube.com/watch?v=pkKzcWoSjEw&ab_channel=CaptainLance9) và [đây](https://www.youtube.com/watch?v=3Nvc43buj-8&ab_channel=Dreamcore)
 
 ## Passive skill
+
 ![[Pasted image 20231013130635.png]]
+
 [video](https://www.youtube.com/watch?v=0H3KBRm4E2M&ab_channel=Dreamcore)
 
 ## Mechanic
