@@ -51,7 +51,7 @@ On the user side, there are a few ways to reduce hallucination, such as ReACT an
 
 Programming thrives on challenges. Solutions like languages, frameworks, and tools emerge, but these often become future hurdles, necessitating ongoing learning and adaptation.
 
-![[Pasted image 20231113103426.png|https://www.youtube.com/watch?v=JhCl-GeT4jw&ab_channel=CS50]]
+![[Pasted image 20231113103426.png]]
 
 Two of the most frustrating things about coding are that it can be either too boring or too "hard".
 
