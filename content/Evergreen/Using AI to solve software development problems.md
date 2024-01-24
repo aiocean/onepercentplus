@@ -197,7 +197,7 @@ Bonus một số tool generate:
 2. https://flutterflow.io/ai-gen
 3. https://retool.com/products/ai
 
-## ## AI giúp viết test
+## AI giúp viết test
 
 To be honest, I rarely write unittests. It's quite time-consuming and difficult. I only write them when the function is really important and difficult to integration test. I believe there are many developers like me.
 
@@ -258,7 +258,6 @@ I create an assistant on OpenAI. and provide it with system prompts and some fil
 I will try to copy a random text on the internet to ask it to review, in fact, we will use code changes in the commit. I will use the following code:
 
 
-```go
 ```go
 func DiscountEdit(ctx context.Context, shopID int64, discountEdit *model.DiscountEdit, repo *repository.MongodbRepository) error {
 
