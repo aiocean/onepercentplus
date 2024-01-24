@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "One Percent+",
+    pageTitle: "OnePercent+",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
