@@ -1,1 +1,0 @@
-Custom doesn't care about code, customer cares about side effects. lol

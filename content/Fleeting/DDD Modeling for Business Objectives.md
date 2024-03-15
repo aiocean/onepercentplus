@@ -1,4 +1,0 @@
-1.  Identify the key business objectives and goals of the organization or project. This will help you understand the areas of the problem domain that are most important to the success of the project.
-2. Identify the areas of the problem domain that are most complex and difficult to understand. These are likely to be the core subdomains, as they will require the most attention and effort to model and design.
-3.  Involve domain experts in the process of defining the core subdomain. These experts will have a deep understanding of the problem domain, and can provide valuable insights and perspectives on the key concepts and challenges.
-4.  Use DDD tools and techniques, such as bounded contexts and aggregate roots, to help define and model the core subdomain. This will help organize the complexity of the domain, and make it easier for the team to understand and work with.
