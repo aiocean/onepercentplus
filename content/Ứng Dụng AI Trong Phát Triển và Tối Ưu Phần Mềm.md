@@ -31,7 +31,7 @@ Bonus: Các LLMs ngày nay được xây dựng trên mô hình Transformer, đ�
 Xem thêm: [What is genetive AI](obsidian://opengate?url=https://research.ibm.com/blog/what-is-generative-AI)
 ### Context và parameter là gì?
 
-![[./Source/Assets/Pasted image 20231120103134.png|Pasted image 20231120103134.png]]
+![Pasted image 20231120103134.png](./Source/Assets/Pasted%20image%2020231120103134.png)
 
 Ngắn gọn thì context là ngữ cảnh được cung cấp bởi input, như trong ví dụ dưới đây:
 
@@ -59,10 +59,10 @@ Nguyên nhân của ảo giác này là do dữ liệu train chứa thông tin s
 
 Trong thời kì đầu của Gen AI, kết quả ảo giác xảy ra thường xuyên hơn, về sau đã được cải thiện nhiều.
 
-![[./Source/Assets/Pasted image 20231206104651.png|Pasted image 20231206104651.png]]
+![Pasted image 20231206104651.png](./Source/Assets/Pasted%20image%2020231206104651.png)
 > nguồn: [nguoonf](obsidian://opengate?url=https://promptengineering.org/measuring-how-much-leading-ai-chatbots-hallucinate/)
 
-Xem thêm: [[Vectara's Evaluation Approach|Vectara's Evaluation Approach]]
+Xem thêm: [Vectara's Evaluation Approach](../Vectara's%20Evaluation%20Approach.md)
 
 Trong các usecase sau đây, bạn sẽ có thể để ý rằng, có rất nhiều trường hợp, AI generate ra kết quả sai, code không chạy được hoặc tệ hơn là sai logic nhưng vẫn rất tự tin. Nên phải lưu ý đặt biệt khi sử dụng gen AI là phải luôn nghi ngờ.
 
@@ -72,7 +72,7 @@ Trong các usecase sau đây, bạn sẽ có thể để ý rằng, có rất nh
 
 Ta có rất nhiều vấn đề với việc lập trình, nó luôn là như thế. Đó là một phần lý do mà mỗi ngày đều có những thay đổi mới, từ ngôn ngữ lập trình, tooling, framework, service, ....
 
-![[./Source/Assets/Pasted image 20231113103426.png|https://www.youtube.com/watch?v=JhCl-GeT4jw&ab_channel=CS50]]
+![https://www.youtube.com/watch?v=JhCl-GeT4jw&ab_channel=CS50](./Source/Assets/Pasted%20image%2020231113103426.png)
 
 **Hai điều khó chịu khi code là quá nhàm chán hoặc quá "khó".**
 
@@ -166,7 +166,7 @@ Thiết kế kiến trúc hệ thống là một quá trình quan trọng và ph
 2. Tạo ra các biểu đồ cần thiết để giúp hiểu rõ hơn về hệ thống: Dựa trên các yêu cầu, AI có thể tạo ra các biểu đồ cần thiết để giúp hiểu rõ hơn về hệ thống, chẳng hạn như biểu đồ luồng dữ liệu (data flow diagram) hoặc biểu đồ trình tự (sequence diagram). Điều này giúp các nhà phát triển hệ thống dễ dàng nắm bắt và quản lý hệ thống.
 3. Tìm ra các rủi ro tiềm ẩn và đề xuất các chiến lược giảm thiểu: AI có thể giúp tìm ra các rủi ro tiềm ẩn và đề xuất các chiến lược giảm thiểu.
 
-Có nhiều level architecture ([[software architecture level|software architecture level]]). 
+Có nhiều level architecture ([software architecture level](../software%20architecture%20level.md)). 
 
 
 ### Demo AI giúp thiết kế hệ thống phần mềm
@@ -178,7 +178,7 @@ Có nhiều level architecture ([[software architecture level|software architect
 
 Mình nhận thấy bản thân là visual person, việc vẽ, viết ra giúp mình hoàn thiện các suy nghĩ. Và cũng là một output không thể thiếu của quá trình design. Nhưng nó không nhất thiết là bạn phải tự mình vẽ toàn bộ, AI có thể giúp init một số diagram đơn giản để từ đó ta tập trung vào các phần thú vị hơn. Như trong ví dụ dưới đây, mình gọi AI vẽ cho mình từng bước một, đầu tiên vẽ sự tương tác giữa collector và database, sau đó tương tác của database với analysis. 
 
-![[./Source/Assets/Pasted image 20231121165252.png|Pasted image 20231121165252.png]]
+![Pasted image 20231121165252.png](./Source/Assets/Pasted%20image%2020231121165252.png)
 Kết quả sẽ càng sát với yêu cầu khi bạn cung cấp cho nó càng nhiều context. Tool mà mình sử dụng ở đây là usediagram.com của bạn @hey_thien phát triển. Mỗi khi bạn input yêu cầu vào, tool sẽ generate ra code staruml để thể hiện diagram, bạn có thể sửa đổi cả code này hoặc yêu cầu, giúp kết quả generate thêm chính xác. Việc này cũng chính là bạn đang cung cấp nhiều context cho nó hơn.
 
 Đã thiết kế xong, phần tiếp theo ta cần hiện thực các design này thành từng dòng code cụ thể. Việc mà qua thời gian có phần trở nên nhàm chán, và hằng ngày ta luôn tìm cách để cải thiện nó.
@@ -187,11 +187,11 @@ Kết quả sẽ càng sát với yêu cầu khi bạn cung cấp cho nó càng 
 
 Khi code, ta sử dụng thứ ngôn ngữ kỳ lạ mà con người không sử dụng, một loại thần chú bí ẩn, chắc chắn là nó không hề thoải mái, từ xưa:
 
-![[./Source/Assets/Pasted image 20231121171409.png|Pasted image 20231121171409.png]]
+![Pasted image 20231121171409.png](./Source/Assets/Pasted%20image%2020231121171409.png)
 
 cho đến nay:
 
-![[./Source/Assets/Pasted image 20231121171428.png|Pasted image 20231121171428.png]]
+![Pasted image 20231121171428.png](./Source/Assets/Pasted%20image%2020231121171428.png)
 
 Một cái khó khác nữa là boilerplate code. 
 
@@ -199,7 +199,7 @@ Một cái khó khác nữa là boilerplate code.
 
 Dễ thường trong codebase có rất nhiều dòng như thế này:
 
-![[./Source/Assets/Pasted image 20231121172916.png|Pasted image 20231121172916.png]]
+![Pasted image 20231121172916.png](./Source/Assets/Pasted%20image%2020231121172916.png)
 
 Nó lặp đi lặp lại, và ... nhàm chán.
 
@@ -237,7 +237,7 @@ Unittest cũng giống như bảo hiểm vậy, ta chỉ thấy giá trị của
 
 Xưa có câu: Phàm việc gì ta không muốn làm, thì hãy để cho AI làm.
 
-![[./Source/Assets/Pasted image 20231114135420.png|Pasted image 20231114135420.png]](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)
+![Pasted image 20231114135420.png](./Source/Assets/Pasted%20image%2020231114135420.png)(https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)
 
 Như bạn thấy trong demo, việc viết unittest giờ đơn giản hơn trước rất nhiều, dù rằng cũng có một số hạn chế, nhưng đó là điều chấp nhận được và nên làm. Vậy nên với sự giúp đỡ của AI, mong là việc áp dụng TDD sẽ đơn giản và được adapt nhiều hơn.
 
@@ -272,19 +272,19 @@ Tuy nhiên đây chỉ là một ví dụ đơn giản, hiện tại nó còn nh
 
 ## Review code
 
-![[./Source/Assets/Pasted image 20231117135349.png|Pasted image 20231117135349.png]]
+![Pasted image 20231117135349.png](./Source/Assets/Pasted%20image%2020231117135349.png)
 
 Đây là một best practice trong phát triển phần mềm, sau khi pass các testcase, lint rules thì phần logic không thể được review bằng các rule. Nhưng nó cũng là phần quan trọng trong code base. Việc review code giúp đảm bảo healthy của codebase qua thời gian[^2].
 
 Nếu ai từng làm code review thì có lẽ sẽ đồng ý rằng review code khá khó, khó nhất là làm sao cân bằng giữa ý kiến các nhân và healthy của codebase. Chúng ta dễ thường xem những practice của bản thân là tốt hơn, và những logic ta không hiểu, hoặc rối rắm với cách ta suy nghĩ là bad. Nhưng vấn đề là đôi khi nó đúng, đôi khi nó sai.
 
-![[./Source/Assets/Pasted image 20231115093835.png|Pasted image 20231115093835.png]]
+![Pasted image 20231115093835.png](./Source/Assets/Pasted%20image%2020231115093835.png)
 
 AI thì không có cảm tính như vậy, dù nó có bias, nhưng ta có thể cung cấp policy của chúng ta cho nó dưới prompt để force nó follow theo, như vậy việc review sẽ bớt cảm tính hơn nhiều. Hãy xem ví dụ như dưới đây:
 
 Mình tạo một assistant trên OpenAI. và cung cấp cho nó system prompt và một số file về code review của google[^3] để retrieval như sau:
 
-![[./Source/Assets/Pasted image 20231115103147.png|Pasted image 20231115103147.png]]
+![Pasted image 20231115103147.png](./Source/Assets/Pasted%20image%2020231115103147.png)
 
 Mình sẽ thử copy một đoạn text bất kỳ trên internet để nhờ nó review xem sao, trong thực tế thì ta sẽ sử dụng code changes trong commit. Mình sẽ sử dụng đoạn code sau:
 
@@ -385,7 +385,7 @@ Dù muốn dù không, sự phát triển của AI là điều không thể trá
 
 Trong bài này, ta hiểu hơn về Gen AI và một chút khái niệm về context và parameter. Ta có thể thấy, đôi khi, mục tiêu đơn giản lại có thể đem lại những ứng dụng rộng rãi. Nhưng giới hạn của nó là sử dụng quá nhiều tài nguyên, và output còn nhiều ảo giác, bias. Nhưng với sự phát triển và đầu tư hiện tại, các giới hạn này bị phá vỡ mỗi ngày. Tươi lai của một ngôn ngữ lập trình tự nhiên, có khả năng tự sửa mình là không xa lắm. AI sẽ là một bước thay đổi mà không ai có thể đứng ngoài được.
 
-![[./Source/Assets/Pasted image 20231121171845.png|Pasted image 20231121171845.png]]
+![Pasted image 20231121171845.png](./Source/Assets/Pasted%20image%2020231121171845.png)
 
 ## Footnotes
 
