@@ -12,8 +12,7 @@ share: true
 ![[Function invoke function khác|../Source/Function invoke function khác]]
 ## Cấu trúc function
 
-![[Cấu trúc một function|Cấu trúc một function]]
+
 ## Không share bussiness
 ![[Không share business|../Source/Không share business]]
 ## Code Sharing
-![[Code reuse|Code reuse]]
