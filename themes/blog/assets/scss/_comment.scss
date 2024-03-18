@@ -1,0 +1,110 @@
+.comment {
+  &__list{
+    margin-top: 40px;
+  }
+  &__tab-content{
+    margin-top: 20px;
+  }
+
+  /** Comment tabs **/
+  &__tabs {
+    font-size: 0;
+  }
+  &__tab-btn {
+    padding: 10px;
+    margin-bottom: -1px;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    @include font-size(1);
+    &.active {
+      font-weight: $font-weight-bold;
+      cursor: initial;
+      border-bottom: 2px solid $color-primary;
+      border-radius: 4px 4px 0 0;
+    }
+  }
+
+  /** Form Input **/
+  &__form-input {
+    position: relative;
+    margin-bottom: 1rem;
+    &__tip{
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      opacity: .5;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 2px solid rgba($color-dark, .2);
+      border-radius: 4px;
+      outline: none;
+      @include font-size(1);
+      &:focus {
+        border-color: $color-primary;
+      }
+    }
+    textarea {
+      height: 100px;
+    }
+    input[type="checkbox"],
+    input[type="radio"] {
+      width: auto;
+    }
+    input[type="submit"] {
+      width: auto;
+      border: none;
+    }
+    small {
+      display: block;
+      text-align: right;
+    }
+  }
+
+  /** Comment Item **/
+  &__item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    .avatar {
+      width: 60px;
+      height: 60px;
+      margin-right: 1rem;
+    }
+    .avatar img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+    .author {
+      padding: 0;
+      margin: 0;
+    }
+    .author time {
+      margin-left: 10px;
+      font-weight: $font-weight-normal;
+      color: rgba($color-dark, .5);
+    }
+    .content {
+      margin: 0;
+      p {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  /** Comment preview **/
+  &__preview {
+    padding: 1rem;
+    background-color: rgba($color-dark, .1);
+    border-radius: 4px;
+  }
+}

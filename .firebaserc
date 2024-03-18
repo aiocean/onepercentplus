@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "production": "twelve-bit"
+  },
+  "targets": {
+    "twelve-bit": {
+      "hosting": {
+        "next": [
+          "next-12bitvn"
+        ],
+        "production": [
+          "prod-12bitvn"
+        ]
+      }
+    }
+  }
+}

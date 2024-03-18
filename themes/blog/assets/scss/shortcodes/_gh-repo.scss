@@ -1,0 +1,77 @@
+.gh-repo {
+  margin-bottom: 1.5rem;
+  border-radius: .5rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, .15);
+  &__header {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    grid-column-gap: 15px;
+    padding: 1rem;
+    border-bottom: 1px solid lighten($color-light, 70);
+    svg {
+      align-self: center;
+      margin-right: 20px;
+    }
+    .repo-name {
+      margin-bottom: 10px;
+      font-size: 2rem;
+      line-height: 1;
+      color: $color-primary;
+      a {
+        font-weight: 400;
+      }
+      &::before,
+      a::after {
+        display: none;
+      }
+    }
+    .repo-desc {
+      margin-bottom: 0;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+  }
+  &__fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+  &__field-item {
+    padding-left: 0;
+    font-size: 1.25rem;
+    text-align: center;
+    &::before {
+      display: none;
+    }
+    .key {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      svg {
+        margin-right: 5px;
+      }
+    }
+    .value {
+      font-weight: 600;
+    }
+  }
+
+  &__footer {
+    padding: 1.5rem 1rem;
+    text-align: center;
+    border-top: 1px solid lighten($color-light, 70);
+    .button::after {
+      display: none;
+    }
+  }
+}
+
+.article-format .gh-repo ul,
+.article-format .gh-repo li {
+  padding: 0;
+  margin: 0;
+}
+
+.article-format .gh-repo li {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}

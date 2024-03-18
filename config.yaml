@@ -1,0 +1,107 @@
+languageCode: vi-vn
+copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+title: 12bit.vn
+description: Write and share to learn
+theme: blog
+enableGitInfo: true
+enableEmoji: true
+enableRobotsTXT: true
+googleAnalytics: UA-131517577-1
+paginate: 20
+newContentEditor: pstorm
+enableInlineShortcodes: true
+defaultContentLanguage: vi
+canonifyURLs: true
+relativeURLs: true
+languages:
+  vi:
+    title: 12bit
+    weight: 1
+  en:
+    title: 12bit
+    weight: 1
+    menu:
+      main:
+        - identifier: about
+          title: About us
+          url: /pages/about
+        - identifier: chat
+          title: Chat
+          url: https://discord.gg/uMJxpXB
+      footer:
+        - identifier: 0
+          title: Series
+          url: /series/
+        - identifier: 1
+          title: References
+          url: /references/
+        - identifier: 3
+          title: RSS
+          url: /index.xml
+social:
+  facebook: 12bit.vn
+author:
+  email: contact@12bit.vn
+  name: 12bit.vn
+outputs:
+  home:
+  - HTML
+  - RSS
+  - Algolia
+params:
+  description: Write and share to learn
+  favicon: img/icon/favicon.png
+  images:
+    - img/index.png
+  mailChimpSubmitURL: 'https://12bit.us7.list-manage.com/subscribe/post?u=ed33685285a694c7d5b00b64b&amp;id=58d0a80dbd'
+  facebookAppId: 363747664413304
+  algolia:
+    vars: ["title", "content", "summary", "date", "publishdate", "permalink"]
+    params: ["tags"]
+
+outputFormats:
+  Algolia:
+    baseName: algolia
+    isPlainText: true
+    mediaType: application/json
+    notAlternative: true
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+menu:
+  main:
+  - identifier: about
+    title: Giới thiệu
+    url: /pages/about
+  - identifier: chat
+    title: Chat
+    url: https://discord.gg/uMJxpXB
+  footer:
+    - identifier: 0
+      title: Series
+      url: /series/
+    - identifier: 1
+      title: References
+      url: /references/
+    - identifier: 3
+      title: RSS
+      url: /index.xml
+taxonomies:
+  series: series
+  tag: tags
+  reference-tag: reference-tags

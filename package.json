@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "description": "12bit.vn blog",
+  "scripts": {
+    "algolia": "algolia import -s ./public/algolia.json -a $ALGOLIA_APP_ID -k $ALGOLIA_ADMIN_KEY -n prod_12bit_blog",
+    "deploy": "firebase deploy --token $FIREBASE_TOKEN --only hosting:production",
+    "deploy:next": "firebase deploy --token $FIREBASE_TOKEN --only hosting:next",
+    "stylelint": "stylelint themes/**/*.scss"
+  },
+  "dependencies": {
+    "@algolia/cli": "^4.0.8",
+    "conventional-changelog-cli": "^2.2.2",
+    "firebase-tools": "^12.0.1"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "stylelint": "^15.6.2",
+    "stylelint-config-twbs-bootstrap": "^10.0.0",
+    "stylelint-scss": "^5.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
