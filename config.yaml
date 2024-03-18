@@ -15,10 +15,8 @@ canonifyURLs: true
 relativeURLs: true
 languages:
   vi:
-    title: 12bit
     weight: 1
   en:
-    title: 12bit
     weight: 1
     menu:
       main:
@@ -40,14 +38,10 @@ languages:
           url: /index.xml
 social:
   facebook: 12bit.vn
-author:
-  email: contact@12bit.vn
-  name: 12bit.vn
 outputs:
   home:
   - HTML
   - RSS
-  - Algolia
 params:
   description: Write and share to learn
   favicon: img/icon/favicon.png
@@ -55,16 +49,9 @@ params:
     - img/index.png
   mailChimpSubmitURL: 'https://12bit.us7.list-manage.com/subscribe/post?u=ed33685285a694c7d5b00b64b&amp;id=58d0a80dbd'
   facebookAppId: 363747664413304
-  algolia:
-    vars: ["title", "content", "summary", "date", "publishdate", "permalink"]
-    params: ["tags"]
-
-outputFormats:
-  Algolia:
-    baseName: algolia
-    isPlainText: true
-    mediaType: application/json
-    notAlternative: true
+  author:
+    email: contact@12bit.vn
+    name: 12bit.vn
 markup:
   goldmark:
     extensions:
