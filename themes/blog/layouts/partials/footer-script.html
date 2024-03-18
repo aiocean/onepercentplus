@@ -1,11 +1,3 @@
-<!-- #wrap -->
-{{ if ($.Page.Scratch.Get "include_search") }}
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4" defer></script>
-{{ $search := resources.Get "js/search.js"}}
-{{ $searchJs := $search | resources.Minify | resources.Fingerprint}}
-<script src="{{ $searchJs.RelPermalink }}" defer></script>
-{{ end }}
-
 {{ $app := resources.Get "js/app.js"}}
 
 {{ if .IsPage }}

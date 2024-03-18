@@ -8,8 +8,6 @@ title: Những cách implement microfrontend
 
 {{% include "/references/microfrontend-la-gi.md" %}}
 
-# Các giải pháp cho microfrontend
-
 Cũng từ định nghĩa đơn giản đó, ta có thể có nhiều cách để chia một website thành nhiều phần nhỏ khác nhau. Tạm thời bỏ qua các tiêu chỉ để chia tách, mà sẽ chỉ nói đến cách để quản lý và implement các module này sao cho nó có thể làm việc được với nhau.
 
 1. NPM Package
@@ -17,14 +15,14 @@ Cũng từ định nghĩa đơn giản đó, ta có thể có nhiều cách đ�
 3. Federated Module
 4. Web component
 
-# Frontend sử dụng iframe
+## Frontend sử dụng iframe
 
 {{% include "/references/microfrontend-su-dung-iframe.md" %}}
 
-# Frontend sử dụng package
+## Frontend sử dụng package
 
 {{% include "/references/microfrontend-su-dung-package.md" %}}
 
-# Frontend sử dụng federated module
+## Frontend sử dụng federated module
 
 {{% include "/references/microfrontend-su-dung-federated-module.md" %}}
