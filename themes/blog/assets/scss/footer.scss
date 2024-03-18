@@ -1,0 +1,31 @@
+/***** FOOTER *****/
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  margin-top: 4rem;
+  font-family: $font-title;
+  text-align: center;
+  border-top: 1px solid lighten($color-light, 70);
+  @include font-size(.9);
+  @include container();
+
+  p {
+    margin: 0;
+  }
+
+  &__nav {
+    a {
+      padding: 17px;
+    }
+  }
+
+  a::after {
+    display: none;
+  }
+
+  .license-url {
+    line-height: 0;
+  }
+}

@@ -6,11 +6,9 @@
   {{ partial "head" . }}
 </head>
 <body>
-<div id="wrap">
-  {{ partial "header" . }}
-  {{ block "main" . }}{{ end }}
-  {{ partial "footer" . }}
-</div>
-  {{ partial "footer-script" . }}
+{{ partial "header" . }}
+{{ block "main" . }}{{ end }}
+{{ partial "footer" . }}
+{{ partial "footer-script" . }}
 </body>
 </html>

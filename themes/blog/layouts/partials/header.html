@@ -1,42 +1,9 @@
 <header id="masthead" class="site-header">
-  <div class="left">
-    <h1 class="site-title">
-      <a href="/" aria-label="Trang chủ">
-        {{.Site.Title}}
-      </a>
-    </h1>
-  </div>
-  <div class="right">
-    {{ $currentPage := . }}
-    <nav class="site-navigation">
-      <ul>
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-        {{ if .HasChildren }}
-        <li class="site-navigation__item {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-          <a href="#">
-            {{ .Pre }}
-            <span>{{ .Title }}</span>
-          </a>
-        </li>
-        <ul class="sub-menu">
-          {{ range .Children }}
-          <li class="site-navigation__item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-            <a href="{{ .URL }}" class="sub-color">{{ .Title }}</a>
-          </li>
-          {{ end }}
-        </ul>
-        {{ else }}
-        <li class="site-navigation__item">
-          <a href="{{ .URL }}" class="sub-color">
-            {{ .Pre }}
-            <span>{{ .Title }}</span>
-          </a>
-        </li>
-        {{ end }}
-        {{ end }}
-      </ul>
-    </nav>
-  </div>
+  <h1 class="site-title">
+    <a href="/" aria-label="Trang chủ">{{.Site.Title}}</a>
+    {{ if not .IsHome }}
+    <span style="color: rgba(0,0,0,0.30); margin: 0 10px">+++></span> <span>{{ .Title }}</span>
+    {{ end }}
+  </h1>
 </header><!-- #masthead -->
 <div id="site-message-container"></div>

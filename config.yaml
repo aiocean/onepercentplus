@@ -1,6 +1,6 @@
 languageCode: vi-vn
 copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
-title: OnePercent+
+title: OnePercentPlus
 description: Write and share to learn
 theme: blog
 enableGitInfo: true
@@ -75,9 +75,6 @@ menu:
   - identifier: about
     title: Giới thiệu
     url: /pages/about
-  - identifier: chat
-    title: Chat
-    url: https://discord.gg/uMJxpXB
   footer:
     - identifier: 0
       title: Series
